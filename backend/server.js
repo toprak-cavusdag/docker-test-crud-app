@@ -53,6 +53,8 @@ app.put("/api/stocks/:id", async (req, res) => {
   }
 });
 
+
+
 // DELETE - Stok sil
 app.delete("/api/stocks/:id", async (req, res) => {
   try {
